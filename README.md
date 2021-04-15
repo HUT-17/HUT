@@ -28,8 +28,6 @@ NI-DAQmx DVD:所有NI DAQ设备均随附DVD光盘，包含了设备所需的驱�
 在线下载:去驱动程序和更新页下载最新NI-DAQmx驱动程序。
 为确保所有依赖软件均安装，NI建议安装软件时选择典型安装选项。如弹出选择NI软件安装路径的提示，请选择与LabVIEW相同的根目录。
 
-
-
 ### 安装DAQ
 DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬件系列产品丰富，有即插即用式USB设备，也有多通道数的PXI系统。
 
@@ -46,8 +44,6 @@ DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬�
 汇川-工控机 安装后可通过GPIB、USB、以太网/LAN或串行总线RS232/RS458与各类仪器进行通信。
 
 ![Image text](https://www.ni.com/images/coreblock/instrumentcontrol_sm.jpg)
-
-
 ### 连接和设置硬件
 安装好软件和驱动程序后，即可开始连接和设置硬件。
 
