@@ -9,6 +9,10 @@
 如正在更新现有系统，NI建议先对所有应用程序、项目及其他相关文件进行备份。
 
 预计安装用时：8小时
+### 选择平台
+选择合适的环境平台，windows10、MAC、Linux。
+
+![Image text](https://www.ni.com/images/coreblock/daq_family.gif)
 ### 安装LabVIEW
 
 安装驱动程序前必须首先安装LabVIEW。请插入LabVIEW开发平台DVD，按照屏幕提示进行安装。如无随LabVIEW发运的原始光装光盘，可在线下载LabVIEW最新版本。
@@ -22,10 +26,7 @@ NI-DAQmx DVD:所有NI DAQ设备均随附DVD光盘，包含了设备所需的驱�
 在线下载:去驱动程序和更新页下载最新NI-DAQmx驱动程序。
 为确保所有依赖软件均安装，NI建议安装软件时选择典型安装选项。如弹出选择NI软件安装路径的提示，请选择与LabVIEW相同的根目录。
 
-### 选择平台
-选择合适的环境平台，windows10、MAC、Linux。
 
-![Image text](https://www.ni.com/images/coreblock/daq_family.gif)
 
 ### DAQ
 DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬件系列产品丰富，有即插即用式USB设备，也有多通道数的PXI系统。
