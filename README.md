@@ -42,5 +42,5 @@ DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬�
 
 ### 连接和设置硬件
 安装好软件和驱动程序后，即可开始连接和设置硬件。
-<img src="http://5b0988e595225.cdn.sohucs.com/images/20180930/88b6f74f486d4a49831411734d4d7cfe.jpeg" width="20" height="20" /><br/>
+<img src="http://5b0988e595225.cdn.sohucs.com/images/20180930/88b6f74f486d4a49831411734d4d7cfe.jpeg" width="200" height="200" /><br/>
 
