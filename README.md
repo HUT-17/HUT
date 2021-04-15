@@ -21,3 +21,9 @@ NI Device Drivers DVD:如通过LabVIEW开发平台DVD安装设备驱动，程序
 NI-DAQmx DVD:所有NI DAQ设备均随附DVD光盘，包含了设备所需的驱动程序。
 在线下载:去驱动程序和更新页下载最新NI-DAQmx驱动程序。
 为确保所有依赖软件均安装，NI建议安装软件时选择典型安装选项。如弹出选择NI软件安装路径的提示，请选择与LabVIEW相同的根目录。
+### 连接和设置硬件
+安装好软件和驱动程序后，即可开始连接和设置硬件。
+### 选择平台
+请选择合适的硬件平台，然后按照说明安装和配置系统。
+![Image text](https://www.ni.com/images/coreblock/daq_family.gif)
+
