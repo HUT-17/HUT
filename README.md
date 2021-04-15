@@ -36,7 +36,7 @@ DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬�
 ### 安装VDM
 这个是NI视觉所有的图像处理函数库，提供在LabVIEW编程环境下使用多种图像处理以及识别的函数及功能。
 ### 安装VAS
-用于捕获图像的一系列驱动程序。工业相机，调用的是DLL，需要使用IMAQdx、IMAQ等驱动。安装后，在VBAI、VDM中的视觉助手（Vision Assistant)、MAX中都是可以直接从相机中采集图像。
+用于捕获图像的一系列驱动程序。工业相机，调用的是DLL，需要使用IMAQdx、IMAQ等驱动。安装后，在VBAI、VDM中的视觉助手（Vision Assistant)、MAX中从相机中采集图像。
 ### 安装VBAI
 用于自动检测的视觉生成器。NI Vision Developments Module（视觉开发包VDM）开发的一款功能比较强大的应用程序，需要安装。
 ## 仪器控制
