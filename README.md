@@ -32,7 +32,7 @@ NI-DAQmx DVD:所有NI DAQ设备均随附DVD光盘，包含了设备所需的驱�
 DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬件系列产品丰富，有即插即用式USB设备，也有多通道数的PXI系统。
 ![Image text](https://www.ni.com/images/coreblock/crio_embedded.gif)
 ### CompactRIO
-主要介绍安装和配置NI CompactRIO，然后将系统配置为使用动态主机配置协议(DHCP)或静态IP地址。
+安装和配置NI CompactRIO，然后将系统配置为使用动态主机配置协议(DHCP)或静态IP地址。
 ## 仪器控制
 汇川-工控机 查看LabVIEW、NI-VISA和NI-488.2的安装指南。安装后可通过GPIB、USB、以太网/LAN或串行总线与各类仪器进行通信。
 ![Image text](https://www.ni.com/images/coreblock/instrumentcontrol_sm.jpg)
