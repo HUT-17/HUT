@@ -8,7 +8,7 @@
 使用DAQ软件前，必须先安装应用程序开发环境和驱动程序。本文档主要介绍如何安装LabVIEW和NI-DAQmx驱动程序。如无随产品发运的原始安装光盘，请访问ni.com/downloads/products下载最新LabVIEW试用版和NI-DAQmx。
 如正在更新现有系统，NI建议先对所有应用程序、项目及其他相关文件进行备份。
 
-预计安装用时：5小时
+预计安装用时：8小时
 ### 安装LabVIEW
 
 安装驱动程序前必须首先安装LabVIEW。请插入LabVIEW开发平台DVD，按照屏幕提示进行安装。如无随LabVIEW发运的原始光装光盘，可在线下载LabVIEW最新版本。
