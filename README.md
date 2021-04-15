@@ -29,14 +29,14 @@ NI-DAQmx DVD:所有NI DAQ设备均随附DVD光盘，包含了设备所需的驱�
 
 
 ### 安装DAQ
-DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬件系列产品丰富，有即插即用式USB设备，也有多通道数的PXI系统。
+DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬件系列产品丰富，有即插即用式USB设备，也有多通道数的PXI系统，需要安装。
 ![Image text](https://www.ni.com/images/coreblock/crio_embedded.gif)
 ### 安装CompactRIO
-安装和配置NI CompactRIO，然后将系统配置为使用动态主机配置协议(DHCP)或静态IP地址。
+安装和配置NI CompactRIO，然后将系统配置为使用动态主机配置协议(DHCP)或静态IP地址，需要安装。
 ### 安装VDM
-这个是NI视觉所有的图像处理函数库，提供在LabVIEW编程环境下使用多种图像处理以及识别的函数及功能。
+这个是NI视觉所有的图像处理函数库，提供在LabVIEW编程环境下使用多种图像处理以及识别的函数及功能，需要安装。
 ### 安装VAS
-用于捕获图像的一系列驱动程序。工业相机，调用的是DLL，需要使用IMAQdx、IMAQ等驱动。安装后，在VBAI、VDM中的视觉助手（Vision Assistant)、MAX中从相机中采集图像。
+用于捕获图像的一系列驱动程序。工业相机，调用的是DLL，需要使用IMAQdx、IMAQ等驱动。安装后，在VBAI、VDM中的视觉助手（Vision Assistant)、MAX中从相机中采集图像，需要安装。
 ### 安装VBAI
 用于自动检测的视觉生成器。NI Vision Developments Module（视觉开发包VDM）开发的一款功能比较强大的应用程序，需要安装。
 ## 仪器控制
