@@ -10,7 +10,7 @@
 使用视觉代码前，必须先安装应用程序开发环境和驱动程序。必须安装LabVIEW和NI-DAQmx、DAQ、CompactRIO、VDM、VAS、VBAI驱动程序。如无随产品发运的原始安装光盘，请访问ni.com/downloads/products下载最新LabVIEW试用版和NI-DAQmx。
 如正在更新现有系统，NI建议先对所有应用程序、项目及其他相关文件进行备份。
 
-预计安装用时：至少20小时
+预计手动安装用时：至少20小时
 ### 选择平台
 选择合适的环境平台，windows10、MAC、Linux。
 
