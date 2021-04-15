@@ -24,7 +24,7 @@ NI-DAQmx DVD:所有NI DAQ设备均随附DVD光盘，包含了设备所需的驱�
 ### 连接和设置硬件
 安装好软件和驱动程序后，即可开始连接和设置硬件。
 ### 选择平台
-请选择合适的硬件平台，然后按照说明安装和配置系统。
+选择合适的硬件平台，windows10或者MAC。
 
 ![Image text](https://www.ni.com/images/coreblock/daq_family.gif)
 
