@@ -37,5 +37,9 @@ DAQ设备用于测量各种来自传感器的电气和物理信号。NI DAQ硬�
 汇川-工控机 安装后可通过GPIB、USB、以太网/LAN或串行总线RS232/RS458与各类仪器进行通信。
 
 ![Image text](https://www.ni.com/images/coreblock/instrumentcontrol_sm.jpg)
+
+3轴伺服系统
+
 ### 连接和设置硬件
 安装好软件和驱动程序后，即可开始连接和设置硬件。
+![Image text]（https://image.baidu.com/search/detail?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=3%E8%BD%B4%E4%BC%BA%E6%9C%8D%E7%B3%BB%E7%BB%9F&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=-1&hd=undefined&latest=undefined&copyright=undefined&cs=2582837982,3965805716&os=1117127670,2077733793&simid=3487378337,210711305&pn=12&rn=1&di=94270&ln=1307&fr=&fmq=1618476944259_R&ic=0&s=undefined&se=&sme=&tab=0&width=&height=&face=undefined&is=0,0&istype=2&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=0&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%253A%252F%252F5b0988e595225.cdn.sohucs.com%252Fimages%252F20180930%252F88b6f74f486d4a49831411734d4d7cfe.jpeg%26refer%3Dhttp%253A%252F%252F5b0988e595225.cdn.sohucs.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Djpeg%3Fsec%3D1621068944%26t%3D20852ef9698f172b265d928d701ebd04&rpstart=0&rpnum=0&adpicid=0&force=undefined）
