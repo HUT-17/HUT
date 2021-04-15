@@ -1,0 +1,311 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\BasicDemoByGenTL.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BasicDemoByGenTL.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 BasicDemoByGenTL"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "BasicDemoByGenTL，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_BasicDemoByGenTL_DIALOG DIALOGEX 0, 0, 459, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "BasicDemoByGenTL 示例程序"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "初始化",IDC_INIT_STATIC,331,106,117,41
+    PUSHBUTTON      "打开设备",IDC_OPEN_BUTTON,334,122,52,14
+    PUSHBUTTON      "关闭设备",IDC_CLOSE_BUTTON,393,122,49,14
+    GROUPBOX        "图像采集",IDC_IMAGE_GRABBING_STATIC,330,166,120,68
+    CONTROL         "",IDC_DISPLAY_STATIC,"Static",SS_BLACKFRAME,14,45,311,224
+    CONTROL         "连续模式",IDC_CONTINUS_MODE_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,336,178,55,10
+    CONTROL         "触发模式",IDC_TRIGGER_MODE_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,396,179,46,10
+    PUSHBUTTON      "开始采集",IDC_START_GRABBING_BUTTON,335,193,51,14
+    PUSHBUTTON      "停止采集",IDC_STOP_GRABBING_BUTTON,395,193,49,14
+    PUSHBUTTON      "软触发一次",IDC_SOFTWARE_ONCE_BUTTON,395,213,48,14
+    CONTROL         "软触发",IDC_SOFTWARE_TRIGGER_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,216,53,10
+    COMBOBOX        IDC_IF_COMBO,50,14,275,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVICE_COMBO,50,29,275,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "枚举Interface",IDC_ENUM_IF_BUTTON,344,53,89,14
+    CTEXT           "Interface:",IDC_STATIC,17,18,31,8
+    CTEXT           "Device:",IDC_STATIC,17,32,30,8
+    PUSHBUTTON      "枚举设备",IDC_ENUM_DEV_BUTTON,344,72,89,14
+    GROUPBOX        "枚举",IDC_INIT_STATIC2,331,42,116,49
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "BasicDemoByGenTL.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "BasicDemoByGenTL.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_BasicDemoByGenTL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 BasicDemoByGenTL(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BasicDemoByGenTL_DIALOG DIALOGEX 0, 0, 467, 275
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Machine Vision Camera SDK Basic Demo (VC)"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Initialization",IDC_INIT_STATIC,331,105,123,44
+    PUSHBUTTON      "Open Device",IDC_OPEN_BUTTON,332,123,57,14
+    PUSHBUTTON      "Close Device",IDC_CLOSE_BUTTON,392,123,56,14
+    GROUPBOX        "Image Acquisition",IDC_IMAGE_GRABBING_STATIC,330,172,125,68
+    CONTROL         "",IDC_DISPLAY_STATIC,"Static",SS_BLACKFRAME,14,46,310,216
+    CONTROL         "Continuous",IDC_CONTINUS_MODE_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,336,184,55,10
+    CONTROL         "Trigger Mode",IDC_TRIGGER_MODE_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,396,186,54,10
+    PUSHBUTTON      "Start",IDC_START_GRABBING_BUTTON,335,200,57,14
+    PUSHBUTTON      "Stop",IDC_STOP_GRABBING_BUTTON,395,200,56,14
+    PUSHBUTTON      "Trigger Once",IDC_SOFTWARE_ONCE_BUTTON,408,220,45,14
+    CONTROL         "Trigger by Software",IDC_SOFTWARE_TRIGGER_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,332,224,75,10
+    CTEXT           "Interface:",IDC_STATIC,17,18,31,8
+    CTEXT           "Device:",IDC_STATIC,17,32,30,8
+    PUSHBUTTON      "Enum Interface",IDC_ENUM_IF_BUTTON,346,49,89,14
+    PUSHBUTTON      "Enum Devices",IDC_ENUM_DEV_BUTTON,346,65,89,14
+    COMBOBOX        IDC_DEVICE_COMBO,50,29,275,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_IF_COMBO,50,14,275,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Enumerate",IDC_INIT_STATIC3,331,34,123,51
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About BasicDemoByGenTL"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "BasicDemoByGenTL,V1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BasicDemoByGenTL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 460
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "About BasicDemoByGenTL(&A)..."
+END
+
+#endif    // English (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\BasicDemoByGenTL.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

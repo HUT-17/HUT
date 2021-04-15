@@ -1,0 +1,380 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MultipleCamera.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MultipleCamera.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MultipleCamera"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MultipleCamera 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2017",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MULTIPLECAMERA_DIALOG DIALOGEX 0, 0, 536, 475
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MultipleCamera"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Animate1",IDC_DISPLAY1_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,17,15,155,220
+    CONTROL         "Animate1",IDC_DISPLAY3_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,18,239,155,220
+    CONTROL         "Animate1",IDC_DISPLAY2_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,176,15,155,220
+    CONTROL         "Animate1",IDC_DISPLAY4_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,177,240,155,220
+    GROUPBOX        "相机初始化设置区域",IDC_CAMERA_INIT_STATIC,343,15,180,
+                    125
+    LTEXT           "在线相机的个数",IDC_ONLINE_NUM_STATIC,355,35,62,8
+    LTEXT           "增    益",IDC_GAIN_STATIC,358,114,35,8
+    EDITTEXT        IDC_ONLINE_NUM_EDIT,419,31,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USE_NUM_EDIT,419,50,41,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "初始化相机",IDC_INIT_DEVICE_BUTTON,466,35,49,19
+    GROUPBOX        "设置曝光增益",IDC_STATIC,351,81,165,54
+    LTEXT           "曝光时间",IDC_EXPOUSE_STATIC,358,97,34,8
+    LTEXT           "使用相机的个数",IDC_USE_NUM_STATIC,355,51,62,8
+    EDITTEXT        IDC_EXPOUSE_EDIT,400,96,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GAIN_EDIT,400,112,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置参数",IDC_SET_EXPOUSE_GAIN_BUTTON,450,100,58,19
+    GROUPBOX        "采集控制区域",IDC_GRAB_CONTROL_STATIC,343,154,173,153
+    CONTROL         "连续模式",IDC_CONTINUS_MODE_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,363,178,48,10
+    CONTROL         "触发模式",IDC_TRIGGER_MODE_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,444,179,48,10
+    PUSHBUTTON      "开始采集",IDC_START_GRABBING_BUTTON,369,198,50,14
+    PUSHBUTTON      "停止采集",IDC_STOP_GRABBING_BUTTON,446,197,50,14
+    PUSHBUTTON      "软触发采集",IDC_SOFTWARE_MODE_BUTTON,369,226,50,14
+    PUSHBUTTON      "软触发一次",IDC_SOFTWARE_ONCE_BUTTON,446,225,50,14
+    PUSHBUTTON      "硬触发采集",IDC_HARDWARE_MODE_BUTTON,369,254,50,14
+    PUSHBUTTON      "计数清零",IDC_CLEAR_COUNT_BUTTON,369,282,50,14
+    PUSHBUTTON      "关闭",IDC_CLOSE_BUTTON,446,281,50,14
+    GROUPBOX        "采集帧数、丢帧和图像显示控制区域",IDC_STATIC,343,325,
+                    174,129
+    LTEXT           "采集帧数",IDC_STATIC,406,348,43,8
+    LTEXT           "丢帧数",IDC_STATIC,457,347,43,8
+    EDITTEXT        IDC_FRAME_COUNT1_EDIT,404,359,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAME_COUNT2_EDIT,404,382,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAME_COUNT3_EDIT,404,405,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAME_COUNT4_EDIT,404,428,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME1_EDIT,460,360,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME2_EDIT,460,382,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME3_EDIT,460,405,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME4_EDIT,460,427,40,14,ES_AUTOHSCROLL
+    LTEXT           "相机1",IDC_STATIC,363,362,34,8
+    LTEXT           "相机2",IDC_STATIC,363,385,34,8
+    LTEXT           "相机3",IDC_STATIC,363,409,34,8
+    LTEXT           "相机4",IDC_STATIC,364,430,34,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MultipleCamera Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MultipleCamera\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MultipleCamera.EXE\0"
+            VALUE "ProductName", "MultipleCamera 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MULTIPLECAMERA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 529
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 468
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MultipleCamera(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "?? MultipleCamera"
+FONT 9, "??"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MultipleCamera V1.0 ",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C)  2017",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MULTIPLECAMERA_DIALOG DIALOGEX 0, 0, 485, 426
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Machine Vision Camera SDK MultipleCamera Demo (VC)"
+FONT 9, "??"
+BEGIN
+    CONTROL         "Animate1",IDC_DISPLAY1_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,17,15,135,195
+    CONTROL         "Animate1",IDC_DISPLAY3_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,17,216,135,195
+    CONTROL         "Animate1",IDC_DISPLAY2_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,160,15,135,195
+    CONTROL         "Animate1",IDC_DISPLAY4_STATIC,"SysAnimate32",WS_BORDER | 
+                    WS_TABSTOP,160,216,135,195
+    GROUPBOX        "Initialization",IDC_CAMERA_INIT_STATIC,301,15,172,125
+    LTEXT           "Online Device",IDC_ONLINE_NUM_STATIC,313,35,47,8
+    LTEXT           "Gain",IDC_GAIN_STATIC,314,113,49,8
+    EDITTEXT        IDC_ONLINE_NUM_EDIT,364,30,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USE_NUM_EDIT,364,49,41,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Initialization",IDC_INIT_DEVICE_BUTTON,408,34,48,19
+    GROUPBOX        "Parameters",IDC_STATIC,307,81,160,54
+    LTEXT           "Exposure Time",IDC_EXPOUSE_STATIC,314,96,51,8
+    LTEXT           "Used Device",IDC_USE_NUM_STATIC,313,51,62,8
+    EDITTEXT        IDC_EXPOUSE_EDIT,367,96,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GAIN_EDIT,367,112,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set Parameter",IDC_SET_EXPOUSE_GAIN_BUTTON,411,100,52,
+                    19
+    GROUPBOX        "Image Acquisition",IDC_GRAB_CONTROL_STATIC,301,155,172,
+                    125
+    CONTROL         "Continuous",IDC_CONTINUS_MODE_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,312,171,48,10
+    CONTROL         "Trigger Mode",IDC_TRIGGER_MODE_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,391,171,48,10
+    PUSHBUTTON      "Start",IDC_START_GRABBING_BUTTON,313,188,61,14
+    PUSHBUTTON      "Stop",IDC_STOP_GRABBING_BUTTON,391,188,61,14
+    PUSHBUTTON      "Software Trigger",IDC_SOFTWARE_MODE_BUTTON,313,211,61,
+                    14
+    PUSHBUTTON      "Trigger by Software Once",IDC_SOFTWARE_ONCE_BUTTON,391,
+                    209,62,17,BS_MULTILINE
+    PUSHBUTTON      "Hardware Trigger",IDC_HARDWARE_MODE_BUTTON,313,234,61,
+                    14
+    PUSHBUTTON      "Counters Reset",IDC_CLEAR_COUNT_BUTTON,313,256,62,14
+    PUSHBUTTON      "Close Device",IDC_CLOSE_BUTTON,392,255,62,14
+    GROUPBOX        "Display Control",IDC_STATIC,302,295,170,114
+    LTEXT           "Acquired Frames",IDC_STATIC,352,309,55,8
+    LTEXT           "Lost Frames",IDC_STATIC,413,309,43,8
+    EDITTEXT        IDC_FRAME_COUNT1_EDIT,352,320,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAME_COUNT2_EDIT,352,343,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAME_COUNT3_EDIT,352,366,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAME_COUNT4_EDIT,352,389,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME1_EDIT,414,321,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME2_EDIT,414,343,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME3_EDIT,414,365,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOST_FRAME4_EDIT,414,387,40,14,ES_AUTOHSCROLL
+    LTEXT           "Camera1",IDC_STATIC,310,322,33,12
+    LTEXT           "Camera2",IDC_STATIC,310,344,35,12
+    LTEXT           "Camera3",IDC_STATIC,310,367,33,12
+    LTEXT           "Camera4",IDC_STATIC,310,388,33,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MULTIPLECAMERA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 478
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 419
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About MultipleCamera(&A)..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MultipleCamera.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

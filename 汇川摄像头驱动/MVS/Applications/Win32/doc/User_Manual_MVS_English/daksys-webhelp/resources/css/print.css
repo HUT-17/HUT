@@ -1,0 +1,30 @@
+/*
+
+DAKOTASYSTEMS Plugin
+Copyright (c) 1998-2017 DAKOTASYSTEMS.  All rights reserved.
+
+*/
+
+@media print{
+  /**
+   * Hide header and footer
+   */
+  .nav,
+  .navheader,
+  .footer,
+  .navfooter,
+  #searchForm,
+  .wh_search_input,
+  .wh_header{
+    display:none !important;
+  }
+  
+  /**
+   * Remove shadows when printing.
+   */
+  *{
+    text-shadow:none !important;
+  }
+}
+
+

@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GroupBoxSetParam.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxSetParam.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 165</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxShowControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="PictureBoxCamera3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 272</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxShowControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TextBoxCamera3FrameLose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxSetParam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GroupBoxImageControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 104</value>
+  </data>
+  <data name="PictureBoxCamera2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameGet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TextBoxExposureTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera2.Parent" xml:space="preserve">
+    <value>GroupBoxMultiCamera</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera0.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 60</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameGet.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="GroupBoxImageControl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GroupBoxInit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 21</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameLose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PictureBoxCamera0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 21</value>
+  </data>
+  <data name="ButtonInitCamera.Text" xml:space="preserve">
+    <value>Camera Initialization</value>
+  </data>
+  <data name="TextBoxGain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxEnumCameraNum.Name" xml:space="preserve">
+    <value>TextBoxEnumCameraNum</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonInitCamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxShowControl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameLose.Name" xml:space="preserve">
+    <value>TextBoxCamera0FrameLose</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameGet.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 93</value>
+  </data>
+  <data name="CheckBoxSoftware.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 64</value>
+  </data>
+  <data name="GroupBoxSetParam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 113</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxShowControl.Name" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCameraUsingNum.Name" xml:space="preserve">
+    <value>TextBoxCameraUsingNum</value>
+  </data>
+  <data name="TextBoxEnumCameraNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="ButtonStartGrabbing.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ButtonSoftwareOnce.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ButtonInitCamera.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 63</value>
+  </data>
+  <data name="GroupBoxImageControl.Text" xml:space="preserve">
+    <value>Image Acquisition</value>
+  </data>
+  <data name="&gt;&gt;ButtonSetParam.Name" xml:space="preserve">
+    <value>ButtonSetParam</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PictureBoxCamera2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 245</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Exposure Time</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageControl.Name" xml:space="preserve">
+    <value>GroupBoxImageControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMultiCamera.Name" xml:space="preserve">
+    <value>GroupBoxMultiCamera</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 56</value>
+  </data>
+  <data name="GroupBoxMultiCamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 530</value>
+  </data>
+  <data name="LabelGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 66</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Name" xml:space="preserve">
+    <value>ButtonClose</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.Parent" xml:space="preserve">
+    <value>GroupBoxImageControl</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Acquired Frames</value>
+  </data>
+  <data name="CheckBoxSoftware.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxEnumCameraNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxCamera0FrameGet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PictureBoxCamera0.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameLose.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonInitCamera.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonStopGrabbing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Online Device</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.Parent" xml:space="preserve">
+    <value>GroupBoxImageControl</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameLose.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="TextBoxExposureTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera2.Name" xml:space="preserve">
+    <value>PictureBoxCamera2</value>
+  </data>
+  <data name="TextBoxCamera3FrameGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameLose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonStopGrabbing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="PictureBoxCamera1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 21</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonSaveImage.Text" xml:space="preserve">
+    <value>Save Image</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera3.Name" xml:space="preserve">
+    <value>PictureBoxCamera3</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Camera 2</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameLose.Name" xml:space="preserve">
+    <value>TextBoxCamera3FrameLose</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonInitCamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 48</value>
+  </data>
+  <data name="TextBoxCamera1FrameLose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="TextBoxCameraUsingNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.Name" xml:space="preserve">
+    <value>LabelGain</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameGet.Name" xml:space="preserve">
+    <value>TextBoxCamera1FrameGet</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.Name" xml:space="preserve">
+    <value>ButtonStartGrabbing</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.Parent" xml:space="preserve">
+    <value>GroupBoxImageControl</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>GroupBoxSetParam</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Camera 3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameGet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.Name" xml:space="preserve">
+    <value>CheckBoxSoftware</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 33</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameGet.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="ButtonSoftwareOnce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="TextBoxCamera1FrameGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 90</value>
+  </data>
+  <data name="ButtonSetParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 48</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="LabelGain.Text" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="ButtonSoftwareOnce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 57</value>
+  </data>
+  <data name="TextBoxCamera0FrameLose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.Parent" xml:space="preserve">
+    <value>GroupBoxSetParam</value>
+  </data>
+  <data name="TextBoxCamera0FrameLose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 53</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PictureBoxCamera1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonSaveImage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameLose.Name" xml:space="preserve">
+    <value>TextBoxCamera2FrameLose</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameGet.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="GroupBoxMultiCamera.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.Name" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.Parent" xml:space="preserve">
+    <value>GroupBoxSetParam</value>
+  </data>
+  <data name="TextBoxCamera0FrameGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="ButtonInitCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 18</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 27</value>
+  </data>
+  <data name="ButtonSetParam.Text" xml:space="preserve">
+    <value>Set Parameter</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.Name" xml:space="preserve">
+    <value>TextBoxExposureTime</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxInit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TextBoxCameraUsingNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameLose.Name" xml:space="preserve">
+    <value>TextBoxCamera1FrameLose</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Camera 4</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCameraUsingNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxExposureTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 30</value>
+  </data>
+  <data name="LabelGain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxCamera2FrameLose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GroupBoxMultiCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 21</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveImage.Parent" xml:space="preserve">
+    <value>GroupBoxImageControl</value>
+  </data>
+  <data name="GroupBoxSetParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 108</value>
+  </data>
+  <data name="TextBoxCameraUsingNum.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ButtonSetParam.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="TextBoxCamera1FrameLose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 90</value>
+  </data>
+  <data name="TextBoxCamera1FrameGet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ButtonSaveImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 20</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMultiCamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonClose.Text" xml:space="preserve">
+    <value>Close Device</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveImage.Name" xml:space="preserve">
+    <value>ButtonSaveImage</value>
+  </data>
+  <data name="&gt;&gt;TextBoxEnumCameraNum.Parent" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCameraUsingNum.Parent" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="&gt;&gt;TimerCameraControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxSetParam.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GroupBoxImageControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 234</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxSetParam.Name" xml:space="preserve">
+    <value>GroupBoxSetParam</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameGet.Name" xml:space="preserve">
+    <value>TextBoxCamera0FrameGet</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameLose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="TextBoxCamera2FrameGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="TextBoxCamera1FrameLose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GroupBoxInit.Text" xml:space="preserve">
+    <value>Initialization</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxEnumCameraNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="TextBoxCamera2FrameLose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 125</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameLose.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameGet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxSetParam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera1.Name" xml:space="preserve">
+    <value>PictureBoxCamera1</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMultiCamera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TextBoxCamera0FrameGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 53</value>
+  </data>
+  <data name="&gt;&gt;ButtonInitCamera.Name" xml:space="preserve">
+    <value>ButtonInitCamera</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameLose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera3.Parent" xml:space="preserve">
+    <value>GroupBoxMultiCamera</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.Name" xml:space="preserve">
+    <value>ButtonSoftwareOnce</value>
+  </data>
+  <data name="ButtonSoftwareOnce.Text" xml:space="preserve">
+    <value>Trigger Once</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMultiCamera.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ButtonSetParam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 33</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera0.Name" xml:space="preserve">
+    <value>PictureBoxCamera0</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonStopGrabbing.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.Name" xml:space="preserve">
+    <value>ButtonStopGrabbing</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="ButtonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TextBoxEnumCameraNum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameGet.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="TextBoxCamera0FrameLose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxCamera2FrameLose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimerCameraControl.Name" xml:space="preserve">
+    <value>TimerCameraControl</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 128</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.Name" xml:space="preserve">
+    <value>TextBoxGain</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 27</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameGet.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameLose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera0.Parent" xml:space="preserve">
+    <value>GroupBoxMultiCamera</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameGet.Name" xml:space="preserve">
+    <value>TextBoxCamera2FrameGet</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Used Device</value>
+  </data>
+  <data name="GroupBoxShowControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 352</value>
+  </data>
+  <data name="TextBoxEnumCameraNum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonStartGrabbing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Lost Frames</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCameraUsingNum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxSoftware.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameGet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxShowControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PictureBoxCamera0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 245</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera1FrameLose.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ButtonSetParam.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Camera 1</value>
+  </data>
+  <data name="CheckBoxSoftware.Text" xml:space="preserve">
+    <value>Trigger by Software</value>
+  </data>
+  <data name="ButtonStopGrabbing.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSetParam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxCamera3FrameGet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="TextBoxCamera2FrameGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 125</value>
+  </data>
+  <data name="GroupBoxInit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 80</value>
+  </data>
+  <data name="TextBoxCamera3FrameGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 162</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameLose.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <data name="GroupBoxShowControl.Text" xml:space="preserve">
+    <value>Display Control</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera0FrameLose.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PictureBoxCamera1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 245</value>
+  </data>
+  <data name="ButtonStartGrabbing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="&gt;&gt;ButtonSetParam.Parent" xml:space="preserve">
+    <value>GroupBoxSetParam</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>824, 578</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameGet.Name" xml:space="preserve">
+    <value>TextBoxCamera3FrameGet</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Parent" xml:space="preserve">
+    <value>GroupBoxImageControl</value>
+  </data>
+  <data name="GroupBoxMultiCamera.Text" xml:space="preserve">
+    <value>Multiple Camera</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera2FrameGet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameLose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonStartGrabbing.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Machine Vision Camera SDK Multiple Demo (VB)</value>
+  </data>
+  <data name="TextBoxCamera1FrameGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="LabelGain.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TextBoxCamera3FrameLose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 162</value>
+  </data>
+  <data name="ButtonSaveImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 21</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ButtonInitCamera.Parent" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="PictureBoxCamera3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 245</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.Parent" xml:space="preserve">
+    <value>GroupBoxSetParam</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxCamera1.Parent" xml:space="preserve">
+    <value>GroupBoxMultiCamera</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.Parent" xml:space="preserve">
+    <value>GroupBoxImageControl</value>
+  </data>
+  <data name="ButtonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCamera3FrameGet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="GroupBoxShowControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 199</value>
+  </data>
+  <data name="CheckBoxSoftware.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 16</value>
+  </data>
+  <data name="PictureBoxCamera3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TextBoxCamera2FrameGet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PictureBoxCamera2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 272</value>
+  </data>
+  <data name="TextBoxCamera3FrameLose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 48</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>GroupBoxShowControl</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TimerCameraControl.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>12, 20</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Chinese (Simplified)</value>
+  </metadata>
+</root>

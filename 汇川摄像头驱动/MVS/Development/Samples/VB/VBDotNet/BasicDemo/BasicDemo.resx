@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ComboBoxDeviceList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 25</value>
+  </data>
+  <data name="ComboBoxDeviceList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ComboBoxDeviceList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxDeviceList.Name" xml:space="preserve">
+    <value>ComboBoxDeviceList</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxDeviceList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxDeviceList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxDeviceList.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ButtonEnumDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="ButtonEnumDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="ButtonEnumDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonEnumDevice.Text" xml:space="preserve">
+    <value>Search Device</value>
+  </data>
+  <data name="&gt;&gt;ButtonEnumDevice.Name" xml:space="preserve">
+    <value>ButtonEnumDevice</value>
+  </data>
+  <data name="&gt;&gt;ButtonEnumDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonEnumDevice.Parent" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="&gt;&gt;ButtonEnumDevice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBoxInit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 25</value>
+  </data>
+  <data name="GroupBoxInit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 53</value>
+  </data>
+  <data name="GroupBoxInit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GroupBoxInit.Text" xml:space="preserve">
+    <value>Initialization</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.Name" xml:space="preserve">
+    <value>GroupBoxInit</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ButtonCloseDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="ButtonCloseDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonCloseDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonCloseDevice.Text" xml:space="preserve">
+    <value>Close Device</value>
+  </data>
+  <data name="&gt;&gt;ButtonCloseDevice.Name" xml:space="preserve">
+    <value>ButtonCloseDevice</value>
+  </data>
+  <data name="&gt;&gt;ButtonCloseDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonCloseDevice.Parent" xml:space="preserve">
+    <value>GroupBoxDeviceControl</value>
+  </data>
+  <data name="&gt;&gt;ButtonCloseDevice.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonOpenDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="ButtonOpenDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonOpenDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonOpenDevice.Text" xml:space="preserve">
+    <value>Open Device</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenDevice.Name" xml:space="preserve">
+    <value>ButtonOpenDevice</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenDevice.Parent" xml:space="preserve">
+    <value>GroupBoxDeviceControl</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenDevice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonSoftwareOnce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 105</value>
+  </data>
+  <data name="ButtonSoftwareOnce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonSoftwareOnce.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ButtonSoftwareOnce.Text" xml:space="preserve">
+    <value>Trigger Once</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.Name" xml:space="preserve">
+    <value>ButtonSoftwareOnce</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.Parent" xml:space="preserve">
+    <value>GroupBoxGrabImage</value>
+  </data>
+  <data name="&gt;&gt;ButtonSoftwareOnce.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxSoftware.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxSoftware.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 109</value>
+  </data>
+  <data name="CheckBoxSoftware.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 16</value>
+  </data>
+  <data name="CheckBoxSoftware.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CheckBoxSoftware.Text" xml:space="preserve">
+    <value>Trigger by Software</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.Name" xml:space="preserve">
+    <value>CheckBoxSoftware</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.Parent" xml:space="preserve">
+    <value>GroupBoxGrabImage</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSoftware.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonStopGrabbing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 64</value>
+  </data>
+  <data name="ButtonStopGrabbing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonStopGrabbing.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ButtonStopGrabbing.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.Name" xml:space="preserve">
+    <value>ButtonStopGrabbing</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.Parent" xml:space="preserve">
+    <value>GroupBoxGrabImage</value>
+  </data>
+  <data name="&gt;&gt;ButtonStopGrabbing.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonStartGrabbing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 64</value>
+  </data>
+  <data name="ButtonStartGrabbing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonStartGrabbing.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonStartGrabbing.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.Name" xml:space="preserve">
+    <value>ButtonStartGrabbing</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.Parent" xml:space="preserve">
+    <value>GroupBoxGrabImage</value>
+  </data>
+  <data name="&gt;&gt;ButtonStartGrabbing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadioButtonTriggerOn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButtonTriggerOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 32</value>
+  </data>
+  <data name="RadioButtonTriggerOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 16</value>
+  </data>
+  <data name="RadioButtonTriggerOn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RadioButtonTriggerOn.Text" xml:space="preserve">
+    <value>Trigger Mode</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOn.Name" xml:space="preserve">
+    <value>RadioButtonTriggerOn</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOn.Parent" xml:space="preserve">
+    <value>GroupBoxGrabImage</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RadioButtonTriggerOff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButtonTriggerOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 32</value>
+  </data>
+  <data name="RadioButtonTriggerOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="RadioButtonTriggerOff.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RadioButtonTriggerOff.Text" xml:space="preserve">
+    <value>Continuous</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOff.Name" xml:space="preserve">
+    <value>RadioButtonTriggerOff</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOff.Parent" xml:space="preserve">
+    <value>GroupBoxGrabImage</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonTriggerOff.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GroupBoxGrabImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 146</value>
+  </data>
+  <data name="GroupBoxGrabImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 142</value>
+  </data>
+  <data name="GroupBoxGrabImage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GroupBoxGrabImage.Text" xml:space="preserve">
+    <value>Image Acquisition</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGrabImage.Name" xml:space="preserve">
+    <value>GroupBoxGrabImage</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGrabImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGrabImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGrabImage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PictureBoxDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 68</value>
+  </data>
+  <data name="PictureBoxDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 455</value>
+  </data>
+  <data name="PictureBoxDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxDisplay.Name" xml:space="preserve">
+    <value>PictureBoxDisplay</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxDisplay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PictureBoxDisplay.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonSavePng.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 53</value>
+  </data>
+  <data name="ButtonSavePng.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonSavePng.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ButtonSavePng.Text" xml:space="preserve">
+    <value>Save as PNG</value>
+  </data>
+  <data name="&gt;&gt;ButtonSavePng.Name" xml:space="preserve">
+    <value>ButtonSavePng</value>
+  </data>
+  <data name="&gt;&gt;ButtonSavePng.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSavePng.Parent" xml:space="preserve">
+    <value>GroupBoxImageSave</value>
+  </data>
+  <data name="&gt;&gt;ButtonSavePng.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonSaveTiff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 53</value>
+  </data>
+  <data name="ButtonSaveTiff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonSaveTiff.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonSaveTiff.Text" xml:space="preserve">
+    <value>Save as TIFF</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveTiff.Name" xml:space="preserve">
+    <value>ButtonSaveTiff</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveTiff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveTiff.Parent" xml:space="preserve">
+    <value>GroupBoxImageSave</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveTiff.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonSaveJpg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="ButtonSaveJpg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonSaveJpg.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonSaveJpg.Text" xml:space="preserve">
+    <value>Save as JPG</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveJpg.Name" xml:space="preserve">
+    <value>ButtonSaveJpg</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveJpg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveJpg.Parent" xml:space="preserve">
+    <value>GroupBoxImageSave</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveJpg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonSaveBmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="ButtonSaveBmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="ButtonSaveBmp.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonSaveBmp.Text" xml:space="preserve">
+    <value>Save as BMP</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveBmp.Name" xml:space="preserve">
+    <value>ButtonSaveBmp</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveBmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveBmp.Parent" xml:space="preserve">
+    <value>GroupBoxImageSave</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveBmp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GroupBoxImageSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 294</value>
+  </data>
+  <data name="GroupBoxImageSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 82</value>
+  </data>
+  <data name="GroupBoxImageSave.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GroupBoxImageSave.Text" xml:space="preserve">
+    <value>Picture Storage</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageSave.Name" xml:space="preserve">
+    <value>GroupBoxImageSave</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxImageSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonParamSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 109</value>
+  </data>
+  <data name="ButtonParamSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="ButtonParamSet.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ButtonParamSet.Text" xml:space="preserve">
+    <value>Set Parameter</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamSet.Name" xml:space="preserve">
+    <value>ButtonParamSet</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamSet.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamSet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonParamGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 109</value>
+  </data>
+  <data name="ButtonParamGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="ButtonParamGet.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ButtonParamGet.Text" xml:space="preserve">
+    <value>Get Parameter</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamGet.Name" xml:space="preserve">
+    <value>ButtonParamGet</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamGet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamGet.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;ButtonParamGet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TextBoxFrameRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 82</value>
+  </data>
+  <data name="TextBoxFrameRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="TextBoxFrameRate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TextBoxFrameRate.Name" xml:space="preserve">
+    <value>TextBoxFrameRate</value>
+  </data>
+  <data name="&gt;&gt;TextBoxFrameRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxFrameRate.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;TextBoxFrameRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TextBoxGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 56</value>
+  </data>
+  <data name="TextBoxGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="TextBoxGain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.Name" xml:space="preserve">
+    <value>TextBoxGain</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGain.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TextBoxExposureTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="TextBoxExposureTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="TextBoxExposureTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.Name" xml:space="preserve">
+    <value>TextBoxExposureTime</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExposureTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabelFrameRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelFrameRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 85</value>
+  </data>
+  <data name="LabelFrameRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="LabelFrameRate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LabelFrameRate.Text" xml:space="preserve">
+    <value>Frame Rate</value>
+  </data>
+  <data name="&gt;&gt;LabelFrameRate.Name" xml:space="preserve">
+    <value>LabelFrameRate</value>
+  </data>
+  <data name="&gt;&gt;LabelFrameRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelFrameRate.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;LabelFrameRate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LabelGain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 59</value>
+  </data>
+  <data name="LabelGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="LabelGain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelGain.Text" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.Name" xml:space="preserve">
+    <value>LabelGain</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;LabelGain.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LabelExposureTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelExposureTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 29</value>
+  </data>
+  <data name="LabelExposureTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="LabelExposureTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelExposureTime.Text" xml:space="preserve">
+    <value>Exposure Time</value>
+  </data>
+  <data name="&gt;&gt;LabelExposureTime.Name" xml:space="preserve">
+    <value>LabelExposureTime</value>
+  </data>
+  <data name="&gt;&gt;LabelExposureTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelExposureTime.Parent" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;LabelExposureTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GroupBoxParam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 382</value>
+  </data>
+  <data name="GroupBoxParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 141</value>
+  </data>
+  <data name="GroupBoxParam.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GroupBoxParam.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxParam.Name" xml:space="preserve">
+    <value>GroupBoxParam</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxParam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxParam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxParam.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBoxDeviceControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 84</value>
+  </data>
+  <data name="GroupBoxDeviceControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 56</value>
+  </data>
+  <data name="GroupBoxDeviceControl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GroupBoxDeviceControl.Text" xml:space="preserve">
+    <value>Device Control</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxDeviceControl.Name" xml:space="preserve">
+    <value>GroupBoxDeviceControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxDeviceControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxDeviceControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxDeviceControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Chinese (Simplified)</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>901, 549</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Machine Vision Camera SDK Basic Demo (VB)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BasicDemo</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
